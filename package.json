@@ -1,0 +1,36 @@
+{
+  "name": "koa-xlxw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.9",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-jwt": "^4.0.4",
+    "koa-router": "^12.0.0",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0",
+    "koa2-ratelimit": "^1.1.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "redis": "^4.6.7",
+    "sequelize": "^6.29.3",
+    "sequelize-auto": "^0.8.8",
+    "uuid": "^9.0.0",
+    "wechat-pay-nodejs": "^0.2.3",
+    "xlsx": "^0.18.5"
+  }
+}
